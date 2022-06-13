@@ -1,2 +1,2 @@
-# competition-
+# competition
 Data Science / AI Competition 
