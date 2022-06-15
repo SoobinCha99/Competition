@@ -1,0 +1,7 @@
+train.csv - Contains the annotated discourse elements for all essays in the test set.
+
+discourse_id - ID code for discourse element
+essay_id - ID code for essay response. This ID code corresponds to the name of the full-text file in the train/ folder.
+discourse_text - Text of discourse element.
+discourse_type - Class label of discourse element.
+discourse_effectiveness - Quality rating of discourse element, the target.
