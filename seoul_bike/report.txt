@@ -1,0 +1,32 @@
+1. Baseline code 
+    Prepeocessing 
+    -fill precipitation feature na with 0 value
+    -fill other na values with mean values 
+    -split date column to y,m,d 
+    Modeling 
+    -RandomForestRegressor  
+    
+    final socre : 0.39 
+
+2. rental_predictoin_v01 
+    Preprocessing 
+    -fill precipitation feature na with 0 
+    -fill other na values with preceding value
+    -split date feature to y/m/d 
+    -MinMax scale numeric features 
+    Feature Engineering 
+    -create weekday feature from date feature 
+    -create corona feature(binary values)
+    Modeling 
+    -use ensemble model 
+    -xgboost / randomforest / linearregression
+
+3. rental_prediction_v02 
+    Preprocessing 
+    -fill precipitation feature na with 0 
+    -fill other na values with preceding value
+    -split date feature to y/m/d
+    Feature Engineering
+    -create discomfort feature 
+    -create temp difference feature 
+    -create coldness feature 
